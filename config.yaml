@@ -41,7 +41,7 @@ params:
     profileMode:
         enabled: true
         title: "Colton Loftus" # optional default will be site title
-        subtitle: "Senior at Princeton University studying Computer Science. Tech enthusiast with interests in ML and tech accessibility"
+        subtitle: "Senior at Princeton University studying Computer Science. \n\n Academic focus within Machine Learning and Tech Accessibility"
         imageUrl: "me.jpg" # optional
         imageTitle: "Colton Loftus" # optional
         imageWidth: 220 # custom size
@@ -57,6 +57,6 @@ params:
         url: "https://github.com/c-loftus/"
       - name: "LinkedIn"
         url: "https://www.linkedin.com/in/coltonl/"
-      - name: "Matrix"
-        url: "https://colton.world/contact/#matrix"
+      # - name: "Matrix"
+      #   url: "https://colton.world/contact/#matrix"
     

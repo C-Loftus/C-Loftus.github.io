@@ -11,5 +11,5 @@ categories:
 
 - https://www.linkedin.com/in/coltonl/
 - https://github.com/C-Loftus
-- `first initial last name`35@gmail.com
+- `first initial with last name`35@gmail.com
   - Obfuscated to prevent spam
