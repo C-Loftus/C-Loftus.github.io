@@ -1,0 +1,62 @@
+theme: "PaperMod"
+baseURL : 'https://colton.world'
+languageCode : 'en-us'
+title : 'colton.world'
+pluralizeListTitles : false
+enableRobotsTXT: true
+
+languages:
+  en: 
+    menu:
+        main:
+            - name: Writing
+              url: writings
+              weight: 5
+            - name: Search
+              url: search/
+              weight: 10
+            - name: Contact
+              url: contact/
+              weight: 2
+            - name: About
+              url: about/
+              weight: 1
+            # - name: git
+            #   url: http://git.colton.world
+            #   weight: 1
+          
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
+
+
+params:
+    ShowToc: true
+    ShowCodeCopyButtons: true
+    ShowReadingTime: true
+
+
+    profileMode:
+        enabled: true
+        title: "Colton Loftus" # optional default will be site title
+        subtitle: "Senior at Princeton University studying Computer Science. Tech enthusiast with interests in ML and tech accessibility"
+        imageUrl: "me.jpg" # optional
+        imageTitle: "Colton Loftus" # optional
+        imageWidth: 220 # custom size
+        imageHeight: 200 # custom size
+        buttons:
+          # - name: My writing
+          #   url: "/blog"
+        #   - name: Github
+        #     url: "https://github.com/"
+
+    socialIcons: # optional
+      - name: "Github"
+        url: "https://github.com/c-loftus/"
+      - name: "LinkedIn"
+        url: "https://www.linkedin.com/in/coltonl/"
+      - name: "Matrix"
+        url: "https://colton.world/contact/#matrix"
+    

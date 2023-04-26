@@ -1,7 +1,0 @@
-paginate = 5
-languageCode = "en"
-DefaultContentLanguage = "en"
-enableInlineShortcodes = true
-theme = "paper"
-author = "Colton Loftus"
-title = "Colton's Website"

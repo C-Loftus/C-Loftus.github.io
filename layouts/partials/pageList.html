@@ -1,0 +1,43 @@
+{{.Content}}
+
+
+<h2> My Articles </h2>
+{{ range .Pages}}
+<div class="box">
+    <a href="{{.RelPermalink}}"> {{.Title}} </a>
+    <br>
+    <br>
+    {{ if .Params.summary }}
+    {{ .Params.summary }}
+    <br>
+    {{ else }}
+    {{ end }}
+    {{ with .Params.tags }} 
+   <i> Tags: </i>
+     {{ end }}
+        {{ range .Params.tags }}
+        <a href="/"></a>
+        {{ end }}
+        {{ range $i, $e := .Params.tags -}}
+        {{- if $i -}}, {{ end -}}
+        <a href='{{ "/tags/" | relLangURL }}{{ . | urlize }}'>{{ $e }}</a>
+    {{- end -}}
+    <br>
+</div>
+{{ end }}
+<br>
+<br>
+    <h3> Article Tags </h3>
+    <div class="list">
+        <br>
+
+        <a href="/blog"> All articles </a>
+        <br>
+        {{ range .Site.Taxonomies.tags }}
+        <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> {{ .Count }}, 
+        {{ end }}
+        <br>
+        <br>
+        <a href="/"> Return to homepage </a>
+
+    </div>

@@ -1,0 +1,16 @@
+
+
+<!-- {{ range (where .Site.Pages "Section" "static") }}
+   {{ range .Pages }}
+      {{ .Title }}
+      <li><a href="{{.RelPermalink}}"> {{.Title}} </a></li>
+
+   {{ end }}
+{{ end }} -->
+{{ $dir:= (index .Params 0) }}
+{{  range (readDir "/static/stepmania") }}
+<li><a href="/{{$dir}}/{{.Name}}"> 
+    {{ .Name }}
+    
+</a></li>
+{{ end }}
