@@ -1,7 +1,6 @@
 theme: "PaperMod"
-baseURL : 'https://colton.world'
 languageCode : 'en-us'
-title : 'colton.world'
+title : 'Colton Loftus'
 pluralizeListTitles : false
 enableRobotsTXT: true
 
