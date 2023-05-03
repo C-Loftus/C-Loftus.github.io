@@ -20,6 +20,10 @@ languages:
             - name: About
               url: about/
               weight: 1
+            - name: Services
+              url: services/
+              weight: 1
+            
             # - name: git
             #   url: http://git.colton.world
             #   weight: 1
