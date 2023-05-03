@@ -242,7 +242,7 @@ Contact me for a free consultation!
 
 </style>
 
-<a class="button" href="/contact">Purchase</a>
+<a class="button" href="/contact">Contact me to Purchase</a>
 
 </center>
 
