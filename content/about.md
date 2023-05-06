@@ -1,7 +1,7 @@
 ---
 showReadingTime: false
 showTOC: false
-title: My background
+title: My Background
 summary: About me.
 categories:
   - Contact

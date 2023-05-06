@@ -7,7 +7,7 @@ categories:
   - Contact
 ---
 
-### Contact Links
+### My Links
 
 - https://www.linkedin.com/in/coltonl/
 - https://github.com/C-Loftus
