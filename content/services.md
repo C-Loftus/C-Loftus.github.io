@@ -24,7 +24,7 @@ Contact me for a free consultation!
 <center>
 
 <img src="https://avatars.githubusercontent.com/u/32918202?s=200&v=4" alt="Talon Logo"> </img>
-<i> $49 per session </i> <del></del>
+<i> Contact for pricing </i> <del></del>
 <br>
 
 <style>
