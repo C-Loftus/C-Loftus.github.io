@@ -5,17 +5,17 @@ draft: false
 tags: ["linux", "software", "accessibility", "programming"]
 ---
 
-In this post I hope to show some of my opinions on the state of hands free accessibility on Linux. Many of these software choices and setup decisions are platform agnostic, but I am primarily focused on Linux. Most of these tools are intended to be used by people who are otherwise able boded besides their hands or arms.
+While completing my [thesis research](github.com/c-loftus/princeton-Thesis) on computer accessibility and ML models for speech recognition, I became quite familiar with the landscape of hands-free accessibility software and the related tooling on Linux. In this post I hope to show some of my opinions and provide advice to others who might be looking to control their computer via dictation. Many of these software choices and setup decisions are platform agnostic, but I am primarily focused on Linux.
 
 ## General Principles
 
-Generally speaking, with accessibility software your goal should be to perform as much work with as little input as possible. This applies to not only the hands, but any other input method like voice control, eye trackers, foot pedals, or other forms of alternative input. If you use any input method in excess it is not a question of if you are going to develop a repetitive strain injury, but rather when. All the software I list below follows these goals. Namely not to just try and replicate keyboard behavior with the voice, but rather to try and optimize it to begin with.
+Generally speaking, with accessibility software your fundamental goal should be to perform as much work with as little input as possible. This applies to not only the hands, but any other input method like voice control, eye trackers, foot pedals, or other forms of alternative input. If you use any input method in excess it is not a question of if you are going to develop a repetitive strain injury, but rather when. All the software I list below follows these goals. Namely, not to just try and replicate keyboard behavior with the voice, but rather to try and optimize it at a more fundamental level and reduce the amount of input in general.
 
 ## Software I Recommend
 
 ### Talon Voice
 
-Without a doubt the most important tool you can use is [talon voice](https://talonvoice.com/). It provides an offline voice parser, a simple scripting language, and a python API for your own programming. With these tools you can essentially use voice to control any action on the desktop that could be done through the keyboard or API calls.
+Without a doubt the most important tool you can use is [Talon Voice](https://talonvoice.com/). It provides an offline voice parser, a simple scripting language, and a Python API for your own programming. With these tools you can essentially use voice to control any action on the desktop that could be done through the keyboard or API calls.
 
 ### VSCode
 
@@ -27,7 +27,7 @@ By far the best to extension to edit code and also general general text is [curs
 
 ### Distributions
 
-In the past, I have used Linux Mint, Arch Linux, Ubuntu, Fedora, Debian, and Void Linux. Once you get enough experience, the most important difference is software packaging. As a result, I have to say that Fedora or Ubuntu are the best choices if you are concerned about accessibility. I think it is very important to have a distribution that is well supported and generally popular. Configuring files through the terminal tends to be rather cumbersome through voice and alternative distributions like NixOS don't work out of the box with Talon. Even if some of these problems are more so just annoyances and can be easily fixed, I believe the goal with accessibility is to have as few of these annoyances as possible and have a maximally stable system. This reduces any chance that your accessibility software will fail and you will be forced to find a solution yourself.
+In the past, I have used Linux Mint, Arch Linux, Ubuntu, Fedora, Debian, and Void Linux. Once you get enough experience, the most important difference is software packaging. As a result, I have to say that Fedora or Ubuntu are the best choices if you are concerned about accessibility. I think it is very important to have a distribution that is well supported and generally popular. Configuring files through the terminal tends to be rather cumbersome through voice and alternative distributions like NixOS don't work out of the box with Talon. Even if some of these problems are moreso just annoyances and can be easily fixed, I believe the goal with accessibility is to have as few of these annoyances as possible and have a maximally stable system. This reduces any chance that your accessibility software will fail and you will be forced to find a solution yourself.
 
 <!-- ### Window Managers
 Contrary to the popular belief of beginners on Linux, your distribution does not determine your window manager.  Once again, I think that stability is important when choosing your window manager. However at the same time, I believe that it is extremely important to choose a window manager or a desktop environment that can be easily controlled through keyboard commands. This makes it much easier to create custom behavior through talon   scripts.
@@ -42,7 +42,6 @@ Contrary to the popular belief of beginners on Linux, your distribution does not
 For my desktop environment, I personally use Pop Tiling Shell on Ubuntu Gnome. This extension allows me to have dynamic window tiling and better keyboard shortcuts for the window manager, while still using a full featured desktop environment like Gnome. This extension does have some bugs since it is building upon the Gnome shell which isn't really intended for this sort of behavior. That being said, I prefer being in a full desktop environment since there is generally more functionality built in.
 
 If you are looking for a more lightweight option, I would recommend awesomewm. It is a stand alone tiling window manager, but it is easier to customize than DWM, has sensible defaults out of the box, and still has dynamic tiling unlike i3.
-now sawb it's he
 
 ### Rango
 
@@ -55,3 +54,5 @@ While all these software choices can greatly improve your workflow there are sti
 Next, Linux is obviously not a proprietary operating system so it does not always have good interoperability with mobile devices. If you have an iPhone, it can quickly become frustrating to have to constantly pick up your phone to message others. iPhones provide no easy way to send SMS from a non-Mac desktop. While iMessage and SMS are not particularly great protocols to begin with, unfortunately they're often necessary for many users.
 
 Ultimately I think the latter problem can be mitigated as we move towards a future of Linux mobile devices. Linux mobile devices allow the user to have a similar workflow and tools on both mobile and the desktop. While there is much work to do on this front, I am hopeful that one day the same accessibility tools on the desktop will have convenient interoperability with those on mobile.
+
+For more discussion on this topic, check out my [thesis research](github.com/c-loftus/princeton-Thesis).
