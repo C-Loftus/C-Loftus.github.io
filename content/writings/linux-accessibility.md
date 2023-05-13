@@ -5,7 +5,7 @@ draft: false
 tags: ["linux", "software", "accessibility", "programming"]
 ---
 
-While completing my [thesis research](github.com/c-loftus/princeton-Thesis) on computer accessibility and ML models for speech recognition, I became quite familiar with the landscape of hands-free accessibility software and the related tooling on Linux. In this post I hope to show some of my opinions and provide advice to others who might be looking to control their computer via dictation. Many of these software choices and setup decisions are platform agnostic, but I am primarily focused on Linux.
+While completing my [thesis research](https://github.com/c-loftus/princeton-Thesis) on computer accessibility and ML models for speech recognition, I became quite familiar with the landscape of hands-free accessibility software and the related tooling on Linux. In this post I hope to show some of my opinions and provide advice to others who might be looking to control their computer via dictation. Many of these software choices and setup decisions are platform agnostic, but I am primarily focused on Linux.
 
 ## General Principles
 
