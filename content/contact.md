@@ -7,9 +7,7 @@ categories:
   - Contact
 ---
 
-### My Links
-
 - https://www.linkedin.com/in/coltonl/
 - https://github.com/C-Loftus
-- `first initial with last name`35@gmail.com
-  - Obfuscated to prevent spam
+- Email: p4e6e09vr [-at-] mozmail (dot) com
+  - Forwards to my main email to prevent spam

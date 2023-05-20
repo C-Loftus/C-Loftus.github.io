@@ -55,4 +55,4 @@ Next, Linux is obviously not a proprietary operating system so it does not alway
 
 Ultimately I think the latter problem can be mitigated as we move towards a future of Linux mobile devices. Linux mobile devices allow the user to have a similar workflow and tools on both mobile and the desktop. While there is much work to do on this front, I am hopeful that one day the same accessibility tools on the desktop will have convenient interoperability with those on mobile.
 
-For more discussion on this topic, check out my [thesis research](github.com/c-loftus/princeton-Thesis).
+For more discussion on this topic, check out my [thesis research](https://github.com/c-loftus/princeton-Thesis).
