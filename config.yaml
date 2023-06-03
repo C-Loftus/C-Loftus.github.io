@@ -34,7 +34,6 @@ outputs:
         - RSS
         - JSON # is necessary
 
-disqusShortname: "colton-1"
 params:
     ShowToc: true
     ShowCodeCopyButtons: true
