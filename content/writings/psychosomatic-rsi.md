@@ -107,3 +107,4 @@ A good simple demonstration can be found below
           </div>
 
 {{< /rawhtml >}}
+{{< chat cactus-comments >}}
