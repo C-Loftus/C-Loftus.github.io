@@ -5,6 +5,21 @@
     {{- partial "head.html" . }}
 </head>
 
+<style>
+    .header-bar {
+  border-top: 4px solid;
+  border-image-source: linear-gradient(90deg, #5d2f86, #8ed6fb 50%, #d32e9d);
+  border-image-slice: 1;
+  position: fixed;
+top: 0;
+right: 0;
+left: 0;
+z-index: 1030;
+}
+</style>
+
+<div class= "header-bar"> </div>
+
 <body class="
 {{- if (or (ne .Kind `page` ) (eq .Layout `archives`) (eq .Layout `search`)) -}}
 {{- print "list" -}}
