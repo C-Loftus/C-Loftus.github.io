@@ -34,12 +34,12 @@ outputs:
         - RSS
         - JSON # is necessary
 
-
+disqusShortname: "colton-1"
 params:
     ShowToc: true
     ShowCodeCopyButtons: true
     ShowReadingTime: true
-
+    comments: true
 
     profileMode:
         enabled: true
