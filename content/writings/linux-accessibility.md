@@ -9,25 +9,28 @@ While completing my [thesis research](https://github.com/c-loftus/princeton-Thes
 
 ## General Principles
 
-Generally speaking, with accessibility software your fundamental goal should be to perform as much work with as little input as possible. This applies to not only the hands, but any other input method like voice control, eye trackers, foot pedals, or other forms of alternative input. If you use any input method in excess it is not a question of if you are going to develop a repetitive strain injury, but rather when. All the software I list below follows these goals. Namely, not to just try and replicate keyboard behavior with the voice, but rather to try and optimize it at a more fundamental level and reduce the amount of input in general.
+Generally speaking, with accessibility software your fundamental goal should be to perform as much work with as little interactive friction as possible. This applies to not only the hands, but any other input method like voice control, eye trackers, foot pedals, or other forms of alternative input. If you use any input method in excess it is not a question of if you are going to develop a repetitive strain injury, but rather when. All the software I list below follows these goals. Namely, not to just try and replicate keyboard behavior with the voice, but rather to try and optimize it at a more fundamental level and reduce the amount of input in general.
 
 ## Software I Recommend
 
 ### Talon Voice
 
-Without a doubt the most important tool you can use is [Talon Voice](https://talonvoice.com/). It provides an offline voice parser, a simple scripting language, and a Python API for your own programming. With these tools you can essentially use voice to control any action on the desktop that could be done through the keyboard or API calls.
-
-### VSCode
-
-Once again, there's a clear choice with regards to code editing. Visual Studio Code is easy to customize, it is well documented, and it provides a significant amount of commands and keyboard shortcuts that can be called from talon. While others have experimented with emacs configurations I would not recommend this due to the lack of extension support from Cursorless.
+Without a doubt the most important tool you can use is [Talon Voice](https://talonvoice.com/). It provides an offline voice parser, a simple scripting language, and a Python API for your own programming. With these tools you can essentially use voice to control any action on the desktop that could be done through the keyboard or API calls. 
 
 ### Cursorless
 
-By far the best to extension to edit code and also general general text is [cursorless](https://github.com/cursorless-dev/cursorless). This extension allows you to select any word in a text file and perform operations on it through talon voice commands. It is difficult to describe if you have not used it before, but it is not only the optimal way to code through voice, but also an exciting way to rethink how text editing is done.
+By far the best to tool to edit code and also general text is [Cursorless](https://github.com/cursorless-dev/cursorless). This extension allows you to select any word in a text file and perform operations on it through Talon voice commands. To do Cursorless justice is beyond the scope of this article, yet it can be roughly thought of as improving voice coding in a way that is analogous to how specialty editors like Vim help keyboard driven coding. Namely, by using combinations of commands and chaining them together for quicker editing. Cursorless does this by adding colored 'hats' on top of each token and manipulating them via a specialty grammar.
+
+![](https://www.cursorless.org/docs/assets/images/tryWrapFine-9655118ff42de230357781ce5691079c.gif)
+
+### VSCode
+
+Since Cursorless is currently exclusive to VSCode, VSCode is the clear winner for accessible text editors. Beyond this, VSCode is well documented and provides a significant amount of commands and keyboard shortcuts that can be called from Talon. While others have experimented with Emacs configurations, I would not recommend this due to the lack of extension support from Cursorless. There is of course also a much higher barrier to entry.
+
 
 ### Distributions
 
-In the past, I have used Linux Mint, Arch Linux, Ubuntu, Fedora, Debian, and Void Linux. Once you get enough experience, the most important difference is software packaging. As a result, I have to say that Fedora or Ubuntu are the best choices if you are concerned about accessibility. I think it is very important to have a distribution that is well supported and generally popular. Configuring files through the terminal tends to be rather cumbersome through voice and alternative distributions like NixOS don't work out of the box with Talon. Even if some of these problems are moreso just annoyances and can be easily fixed, I believe the goal with accessibility is to have as few of these annoyances as possible and have a maximally stable system. This reduces any chance that your accessibility software will fail and you will be forced to find a solution yourself.
+Within the general Linux community, innovative or minimalist distributions are often in vogue (nix, guix, artix, void etc.). Yet for most users, these differences rarely make a large difference compared to more popular options. Once you get enough experience on Linux, the most important difference for the desktop user is typically just packaging and software support. As a result, I have to say that Fedora or Ubuntu are the best choices if you are concerned about accessibility. I believe a central goal with accessibility is to have as little friction as possible and have a maximally stable system. This reduces any chance that your accessibility software will fail and you will be forced to find a solution yourself. Configuring files through the terminal tends to be rather cumbersome through voice and alternative distributions like NixOS don't work out of the box with Talon. Even if some of these problems are moreso just annoyances and can be easily fixed, the general principle persists: stick with what works, even if its not flashy.
 
 <!-- ### Window Managers
 Contrary to the popular belief of beginners on Linux, your distribution does not determine your window manager.  Once again, I think that stability is important when choosing your window manager. However at the same time, I believe that it is extremely important to choose a window manager or a desktop environment that can be easily controlled through keyboard commands. This makes it much easier to create custom behavior through talon   scripts.
@@ -49,11 +52,11 @@ If you are looking for a more lightweight option, I would recommend awesomewm. I
 
 ## Current Problems and The Future
 
-While all these software choices can greatly improve your workflow there are still a few shortcomings on Linux. First, GUI applications still tend to be very mouse driven and cumbersome to use with voice. This is especially the case for creative applications like digital audio work stations, video editing, or artistic software. Voice is simply not a great input method for these sorts of activities with how they are currently designed. From what I have seen, Mac applications tend to do better on this front. For instance, the Mac GUI keyboard navigation program Vimac seems to be a tool that could be quite useful if an alternative was developed on Linux.
+While all these software choices can greatly improve your workflow there are still a few shortcomings on Linux. First, GUI applications still tend to be very mouse driven and cumbersome to use with voice. This is especially the case for creative applications like DAWs, video editing, or artistic software. Voice is simply not a great input method for these sorts of activities with how they are currently designed. From what I have seen, Mac applications tend to do better on this front. For instance, the Mac GUI keyboard navigation program Vimac seems to be a tool that could be particularly useful if an alternative was developed on Linux.
 
-Next, Linux is obviously not a proprietary operating system so it does not always have good interoperability with mobile devices. If you have an iPhone, it can quickly become frustrating to have to constantly pick up your phone to message others. iPhones provide no easy way to send SMS from a non-Mac desktop. While iMessage and SMS are not particularly great protocols to begin with, unfortunately they're often necessary for many users.
+Next, Linux does not generally have good interoperability with mobile devices. If you have an iPhone, it requires much more effort to sync your devices and transition between mobile and desktop. iPhones provide no easy way to send SMS from a non-Mac desktop.  Disconnects in the software ecosystems of desktop and mobile can be a significant issue for accessibility as more computing shifts to mobile devices, yet the best accessibility software remains on desktop.
 
-Ultimately I think the latter problem can be mitigated as we move towards a future of Linux mobile devices. Linux mobile devices allow the user to have a similar workflow and tools on both mobile and the desktop. While there is much work to do on this front, I am hopeful that one day the same accessibility tools on the desktop will have convenient interoperability with those on mobile.
+Hopefully this problem can be mitigated as we move towards a future of Linux mobile devices. Linux mobile devices allow the user to have a similar workflow and tools on both mobile and the desktop. While there is much work to do on this front, I am hopeful that one day the same accessibility tools on the desktop will have convenient interoperability with those on mobile.
 
-For more discussion on this topic, check out my [thesis research](https://github.com/c-loftus/princeton-Thesis).
+For more discussion on this topic, check out my [thesis research](https://github.com/c-loftus/princeton-Thesis) where I discuss Linux mobile devices, federated learning and more new trends in voice-based accessibility.
 {{< chat linux-accessibility >}}

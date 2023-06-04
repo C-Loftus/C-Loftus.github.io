@@ -3,3 +3,71 @@ This is just a placeholder blank stylesheet so as to support adding custom style
 
 Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-css-with-themes-assets for more info
 */
+
+.header-bar {
+  border-top: 4px solid;
+  border-image-source: linear-gradient(90deg, #5d2f86, #8ed6fb 50%, #d32e9d);
+  border-image-slice: 1;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.button {
+  background-color: #5f5f5f;
+  color: #fff;
+  margin: 0px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* 
+a[accesskey="h"] {
+    background: linear-gradient(90deg, #5d2f86, #8ed6fb 10%, #d32e9d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  } */
+
+
+/* div.profile_inner h1 {
+    background: linear-gradient(90deg, #5d2f86, #8ed6fb 90%, #d32e9d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  } */
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: transparent;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: transparent;
+  border: 0px solid rgba(255, 244, 244, 0.8);
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+
+}
+
+/* img {
+  transition: transform 0.25s ease;
+} */
+
+/* img:hover {
+  -webkit-transform: scale(1.1);
+  /* or some other value */
+  transform: scale(1.1);
+} */

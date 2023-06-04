@@ -27,19 +27,6 @@ Contact me for a free consultation!
 <i> Contact for pricing </i> <del></del>
 <br>
 
-<style>
-    .button {
-        background-color: #5f5f5f;
-  color: #fff;
-  margin: 0px;
-  padding: 10px 20px;
-  border-radius: 5px;
-  text-decoration: none;
-  display: inline-block;
-}
-
-</style>
-
 <a class="button" href="/contact">Contact Me to Set Up a Meeting! </a>
 
 </center>

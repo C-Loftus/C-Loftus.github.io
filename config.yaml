@@ -59,6 +59,6 @@ params:
         url: "https://github.com/c-loftus/"
       - name: "LinkedIn"
         url: "https://www.linkedin.com/in/coltonl/"
-      # - name: "Matrix"
-      #   url: "https://colton.world/contact/#matrix"
+      - name: "Matrix"
+        url: "https://app.element.io/#/user/@c-loftus:matrix.org"
     

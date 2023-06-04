@@ -5,6 +5,7 @@ draft: true
 summary: ""
 ---
 
+
 After talking to others in the [Talon Slack channel](https://talonvoice.com/chat), it came to my attention that there is not a good summary of psychosomatic pain resources specifically in the context of symptoms appearing like hand pain from RSI. While many of the general resources for TMS can apply to any chronic pain health condition, in this post I will give my perspective in hopes that will help other programmers.
 
 <br>
@@ -52,39 +53,6 @@ A good simple demonstration can be found below
 
 {{< rawhtml >}}
 
-<style>
-    .center {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 90%;
-    }
-    .grid-container {
-        display: grid;
-        grid-template-columns: auto auto auto;
-        background-color: transparent;
-        padding: 10px;
-        }
-        .grid-item {
-        background-color: transparent;
-        border: 0px solid rgba(255, 244, 244, 0.8);
-        padding: 10px;
-        font-size: 30px;
-        text-align: center;
-        
-        }
-
-        img {
-        transition:transform 0.25s ease;
-    }
-
-    img:hover {
-            -webkit-transform:scale(1.1); /* or some other value */
-            transform:scale(1.1);
-        }
-
-</style>
-
  <div class="grid-container">
             <div class="grid-item">
               <img src="https://th.bing.com/th/id/OIP.ACbd9ANY5PmJj3Gtz1RgTAAAAA?pid=ImgDet&w=400&h=612&rs=1" .jpg alt="" class="center">
@@ -107,4 +75,3 @@ A good simple demonstration can be found below
           </div>
 
 {{< /rawhtml >}}
-{{< chat cactus-comments >}}
