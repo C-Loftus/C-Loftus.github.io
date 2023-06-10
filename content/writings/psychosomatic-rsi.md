@@ -11,7 +11,7 @@ After talking to others in the [Talon Slack channel](https://talonvoice.com/chat
 <br>
 <br>
 
-_In this post I assume that you have a general understanding of what psychosomatic pain is, but not necessarily its specifics or ways of curing it._
+_In this post I assume that you have a general understanding of what psychosomatic pain is, but not necessarily its specifics with regards to the hands_
 
 ## Who Falls Into This Category
 
@@ -28,17 +28,8 @@ Journaling tends to be more emphasized by those taking a psychoanalytic (TMS) ap
   - _The Cure for Chronic Pain Podcast_ by Nicole Sachs
     - The first few episodes are typically enough to gain a general understanding of the journaling technique
 
-{{< rawhtml >}}
-
- <div class="grid-container">        
-    <div class="grid-item">
-              <img src="https://www.hachettebookgroup.com/wp-content/uploads/2017/06/9781599951324.jpg?fit=448%2C675" .jpg alt="" class="center">
-    </div>
-    <div class="grid-item">
-              <img src="https://th.bing.com/th/id/R.3d7a54fa45f4c5f6b640c7e028746e4f?rik=yxOWuDx5B5EeKg&pid=ImgRaw&r=0" alt="" class="center">
-    </div> 
-</div>
-{{< / rawhtml >}}
+{{< image-list 
+"https://www.hachettebookgroup.com/wp-content/uploads/2017/06/9781599951324.jpg?fit=448%2C675" "https://th.bing.com/th/id/R.3d7a54fa45f4c5f6b640c7e028746e4f?rik=yxOWuDx5B5EeKg&pid=ImgRaw&r=0" >}}
 
 ## Meditation
 
@@ -51,27 +42,14 @@ A good simple demonstration can be found below
 
 ## Miscellanea
 
-{{< rawhtml >}}
 
- <div class="grid-container">
-            <div class="grid-item">
-              <img src="https://th.bing.com/th/id/OIP.ACbd9ANY5PmJj3Gtz1RgTAAAAA?pid=ImgDet&w=400&h=612&rs=1" .jpg alt="" class="center">
-              </div>  
-            <div class="grid-item">
-              <img src="https://www.hachettebookgroup.com/wp-content/uploads/2017/06/9781599951324.jpg?fit=448%2C675" .jpg alt="" class="center">
-              </div>
-            <div class="grid-item">
-              <img src="https://th.bing.com/th/id/OIP.N7kLD3ahRmwUM1G187g7cwAAAA?pid=ImgDet&rs=1" alt="" class="center">
-              </div>
-            <div class="grid-item">
-              <img src="https://th.bing.com/th/id/R.3d7a54fa45f4c5f6b640c7e028746e4f?rik=yxOWuDx5B5EeKg&pid=ImgRaw&r=0" alt="" class="center">
-              </div>  
-              <div class="grid-item">
-                  <img src="https://m.media-amazon.com/images/P/1495467953.01._SCLZZZZZZZ_SX500_.jpg" alt="" class="center">
-              </div>  
-              <div class="grid-item">
-                  <img src="assets/images/harvest.jpg" alt="" class="center">
-              </div>  
-          </div>
+{{< image-list 
+"https://www.hachettebookgroup.com/wp-content/uploads/2017/06/9781599951324.jpg?fit=448%2C675" "https://th.bing.com/th/id/R.3d7a54fa45f4c5f6b640c7e028746e4f?rik=yxOWuDx5B5EeKg&pid=ImgRaw&r=0" >}}
 
-{{< /rawhtml >}}
+{{< image-list 
+"https://th.bing.com/th/id/OIP.ACbd9ANY5PmJj3Gtz1RgTAAAAA?pid=ImgDet&w=400&h=612&rs=1"
+"https://www.hachettebookgroup.com/wp-content/uploads/2017/06/9781599951324.jpg?fit=448%2C675"
+"https://th.bing.com/th/id/OIP.N7kLD3ahRmwUM1G187g7cwAAAA?pid=ImgDet&rs=1"
+"https://th.bing.com/th/id/R.3d7a54fa45f4c5f6b640c7e028746e4f?rik=yxOWuDx5B5EeKg&pid=ImgRaw&r=0"
+"https://m.media-amazon.com/images/P/1495467953.01._SCLZZZZZZZ_SX500_.jpg"
+>}}

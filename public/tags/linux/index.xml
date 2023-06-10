@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>linux on Colton Loftus</title>
+    <link>/tags/linux/</link>
+    <description>Recent content in linux on Colton Loftus</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Jun 2022 19:06:34 -0400</lastBuildDate><atom:link href="/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux Hands-Free Accessibility</title>
+      <link>/writings/linux-accessibility/</link>
+      <pubDate>Wed, 01 Jun 2022 19:06:34 -0400</pubDate>
+      
+      <guid>/writings/linux-accessibility/</guid>
+      <description>While completing my thesis research on computer accessibility and ML models for speech recognition, I became quite familiar with the landscape of hands-free accessibility software and the related tooling on Linux. In this post I hope to show some of my opinions and provide advice to others who might be looking to control their computer via dictation. Many of these software choices and setup decisions are platform agnostic, but I am primarily focused on Linux.</description>
+    </item>
+    
+  </channel>
+</rss>

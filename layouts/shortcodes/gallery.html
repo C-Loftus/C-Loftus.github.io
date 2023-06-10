@@ -1,0 +1,9 @@
+{{ $url_list := .Get "images" }}
+{{ $urls := split $url_list "," }}
+<div class="grid-container">
+{{ range $elem_val := $urls }}
+        <div class="grid-item">
+            <img src="{{ $elem_val }}" alt="" class="center">
+        </div>
+{{ end }}
+</div>    
