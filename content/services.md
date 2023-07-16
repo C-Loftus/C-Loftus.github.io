@@ -16,7 +16,7 @@ categories:
 - a team leader or educator looking to support a colleague or student
 - a researcher looking to better understand computer accessibility
 
-Each session runs for 1 hour. Not sure if your needs fit my services?
+Sessions can be as long or as short you need. Not sure if your needs fit my services?
 Contact me for a free consultation!
 
 {{< rawhtml >}}

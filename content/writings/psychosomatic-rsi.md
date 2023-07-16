@@ -1,27 +1,52 @@
 ---
-title: "Psychosomatic Rsi"
+title: "A Survey of Psychosomatic Pain Literature"
 date: 2023-05-22T20:14:09-04:00
 draft: true
 summary: ""
 ---
 
 
-After talking to others in the [Talon Slack channel](https://talonvoice.com/chat), it came to my attention that there is not a good summary of psychosomatic pain resources specifically in the context of symptoms appearing like hand pain from RSI. While many of the general resources for TMS can apply to any chronic pain health condition, in this post I will give my perspective in hopes that will help other programmers.
+After talking to others in the [Talon Slack channel](https://talonvoice.com/chat), it came to my attention that there is not a good summary of psychosomatic pain resources specifically in the context of the hands. My hope is that this post will be a helpful introduction and summary of the current psychosomatic pain landscape. Many of these general resources can be applied relatively easily to other parts of the body as well.  
+
+It goes without saying that this is not anything close to an entire overview of the field but rather a brief summary of books and techniques that may be helpful to others. In my experience talking to others, mainstream western medicine tends to drastically oversimplify psychosomatic healing techniques and many individuals are not clear exactly where to even start.
 
 <br>
 <br>
 
-_In this post I assume that you have a general understanding of what psychosomatic pain is, but not necessarily its specifics with regards to the hands_
+## Brief Background
 
-## Who Falls Into This Category
+Much of the popular psychosomatic pain literature in the west is indebted to the work of [Dr John Sarno](https://www.vox.com/science-and-health/2017/10/2/16338094/dr-john-sarno-healing-back-pain).  To fully give  credence to his ideas, it is best to simply read one of the books mentioned below.  Regardless, his central claim is that the body will produce pain as a way of distracting the mind from stress, unconscious negativity, or repressed emotions.   Sarno's work is firmly in the lineage of psychoanalysis and insight based psychotherapy.  Regardless of one's opinion on psychoanalysis, Sarno's work has become quite influential and broadly popular [^2], with him becoming something akin to a guru for the field of psychosomatic medicine. Sarno refers to psychosomatic chronic pain under the moniker of 'TMS', or tension myositis syndrome, referring to a unconsciously induced local oxygen deprivation.  Regardless of whether this physical explanation is merited, the term TMS has stuck in many circles and the framework has seen significant success. 
 
-Most books I have read agree that if you have had chronic pain for multiple months (or years) without having a traumatic injury or any progress through imaging or tests, and have not made much progress with traditional physical therapy, you are likely suffering from a condition that is psychosomatic. It is important to note that you could have had a physical injury that initiated the pain, but is no longer the cause. Dr. Sarno goes further, saying how even many patients with disk degeneration does not necessitate back pain.
+[^2]: https://www.nytimes.com/2021/11/09/well/mind/john-sarno-chronic-pain-relief.html
+
+ In addition to Sarno, other perspectives have emerged moreso in the lineage of cognitive behavioral therapy. Approaches like "Pain Reprocessing Therapy" still believe that pain is caused due to mental reasons, but instead of placing as much emphasis on an unacknowledged emotional repression, it places a greater focus on overcoming fear of pain and the related conditioned responses. If one is in a state of heightened fear regarding one's  chronic pain, it can create a vicious cycle whereby the brain misinterprets otherwise safe signals. Key to this theory is the emphasis that pain is not necessarily a response to physical damage, but rather a protective mechanism to prevent _potential future damage_.  Thus, once the patient gains confidence that the symptoms are psychosomatic, the goal is to focus breaking cycles of fear and resistance that perpetuate the pain.
+ 
+  As such, this latter approach focuses less on achieving a critical personality insight or unconscious integration, and moreso on changing higher-level behaviors.  Whereas TMS approaches like those of Dr. Sarno commonly recommend insight journaling, pain reprocessing therapy focuses on techniques similar to body scan meditation which help to calm the central nervous system, reinterpret painful sensations through lens of safety, and gradually diminish the pain cycle.
+
+ Just like in traditional psychotherapy, insight and behavioral perspectives both have a valuable place to play.  As such, it is worth investigating both perspectives. 
+
+### Who Falls Into This Category
+
+Dr Sarno and most other authors on psychosomatic pain agree that if you have had chronic pain for multiple months (or especially years) without having a traumatic injury, any progress through imaging or tests, and have not made much progress with traditional physical therapy, you are likely suffering from a condition that is psychosomatic. It is important to note that you could have had a physical injury that initiated the pain, but is no longer the cause. Dr. Sarno goes further, saying how even structural abnormalities do not necessitate pain.  For instance, many older adults have disk degeneration in their backs, but do not feel any resulting pain, simply being normal abnormalities.
+
+# Resources
+
+# My Reading List
+<!-- "https://th.bing.com/th/id/OIP.ACbd9ANY5PmJj3Gtz1RgTAAAAA?pid=ImgDet&w=400&h=612&rs=1"
+"https://www.hachettebookgroup.com/wp-content/uploads/2017/06/9781599951324.jpg?fit=448%2C675"
+"https://th.bing.com/th/id/OIP.N7kLD3ahRmwUM1G187g7cwAAAA?pid=ImgDet&rs=1"
+"https://th.bing.com/th/id/R.3d7a54fa45f4c5f6b640c7e028746e4f?rik=yxOWuDx5B5EeKg&pid=ImgRaw&r=0"
+"https://m.media-amazon.com/images/P/1495467953.01._SCLZZZZZZZ_SX500_.jpg" -->
+{{< image-list 
+
+"/pain.png"
+>}}
 
 # Techniques for Healing
 
 ## Journaling
 
-Journaling tends to be more emphasized by those taking a psychoanalytic (TMS) approach to chronic pain. It is important to emphasize that the journaling done here is not for keeping a diary or recapping personal events/goals. It is specifically done for the purpose of gaining insight into emotions that one would otherwise repress in typical thoughts, namely repression through translation into pain.
+Journaling tends to be more emphasized by those taking a psychoanalytic (TMS) approach to chronic pain. It is important to emphasize that the journaling done here is not for keeping a diary or recapping personal events/goals. It is specifically done for the purpose of gaining insight into emotions that one would otherwise repress in typical thoughts, namely repression through translation into pain. As such this journaling tends to focus on exploring negative emotions or childhood memories.
 
 - Resources:
   - _Pain Free for Life_ by Scott Brady
@@ -40,16 +65,38 @@ In the context of programming, I find it helpful to do somatic tracking before c
 A good simple demonstration can be found below
 {{< youtube 8mQndLqK31E >}}
 
+## Techniques for Programmers
+
+Chronic pain is a uniquely challenging issue for programmers and other workers who spend the  but a majority of their time at a computer.  In every psychosomatic pain book mentioned above, there is an emphasis upon maintaining confidence that nothing is wrong with one's body
+
+
+In Dr. Sarno's books, he often speaks of the importance of
+
+*  Set a timer of random intervals. In addition to your posture, check your breathing and weather it appears more shallow or restricted then your normal breath.
+*  
+
 ## Miscellanea
 
 
 {{< image-list 
-"https://www.hachettebookgroup.com/wp-content/uploads/2017/06/9781599951324.jpg?fit=448%2C675" "https://th.bing.com/th/id/R.3d7a54fa45f4c5f6b640c7e028746e4f?rik=yxOWuDx5B5EeKg&pid=ImgRaw&r=0" >}}
-
-{{< image-list 
-"https://th.bing.com/th/id/OIP.ACbd9ANY5PmJj3Gtz1RgTAAAAA?pid=ImgDet&w=400&h=612&rs=1"
-"https://www.hachettebookgroup.com/wp-content/uploads/2017/06/9781599951324.jpg?fit=448%2C675"
-"https://th.bing.com/th/id/OIP.N7kLD3ahRmwUM1G187g7cwAAAA?pid=ImgDet&rs=1"
-"https://th.bing.com/th/id/R.3d7a54fa45f4c5f6b640c7e028746e4f?rik=yxOWuDx5B5EeKg&pid=ImgRaw&r=0"
-"https://m.media-amazon.com/images/P/1495467953.01._SCLZZZZZZZ_SX500_.jpg"
+"https://d.gr-assets.com/books/1320559467l/316781.jpg"
 >}}
+
+
+## My Thoughts and Opinions on the Field 
+
+_In the sections above  I hope to have given an unbiased summary of the landscape of psychosomatic pain and the related treatments. In this section I hope to expound a bit more regarding my own personal thoughts and perspectives_
+
+
+ after having read a fairly wide variety of psychosomatic pain literature, it seems to me that psychosomatic pain ought to really be considered similarly to in addiction. in both cases one can overcome it through either an insight regarding one's past and personal predispositions, or simply by changing behavioral patterns. 
+ 
+ In academic literature, plenty has been written regarding the impact of Cartesianism on our understanding of health and the body.  For the past three hundred years mainstream medicine in the west has decoupled the mind and body and indiscriminately reduced all nonphysical phenomena into the category of 'mind'.   Even for the Catholics and Orthodox, for whom the soul is made up of a multiplicity of faculties,  often colloquially speak of the soul as if it were nothing more than an ontological identifier.  Despite their good intentions, books like 'Pain Free for Life' which speak of the importance of a 'mind body spirit' connection fail to precisely distinguish what this spirit is and how it is different from the mind.
+ 
+ 
+ As such, for many, the statement that orthopedic pain is mentally caused is tantamount to saying it does not exist. 
+
+  
+
+  As our society tackles a crisis with substance addiction, psychosomatic pain accounts show many similarities.
+
+  {{< chat pain-resources >}}

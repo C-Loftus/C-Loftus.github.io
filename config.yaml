@@ -43,7 +43,7 @@ params:
     profileMode:
         enabled: true
         title: "Colton Loftus" # optional default will be site title
-        subtitle: "Senior at Princeton University studying Computer Science. \n\n Academic focus within Machine Learning and Tech Accessibility"
+        subtitle: "Princeton CS '23, focus in Machine Learning and Tech Accessibility \n\n Currently working in Life Sciences."
         imageUrl: "me.jpg" # optional
         imageTitle: "Colton Loftus" # optional
         imageWidth: 220 # custom size
@@ -51,7 +51,7 @@ params:
         buttons:
           # - name: My writing
           #   url: "/blog"
-        #   - name: Github
+        #   - name: Github  
         #     url: "https://github.com/"
 
     socialIcons: # optional

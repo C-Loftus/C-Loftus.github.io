@@ -4,6 +4,20 @@ This is just a placeholder blank stylesheet so as to support adding custom style
 Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-css-with-themes-assets for more info
 */
 
+
+input,
+textarea {
+  width: 100%;
+  margin: 4px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: var(--code-bg);
+  color: var(--primary);
+  border-radius: var(--radius);
+  /* box-shadow: 1px 1px; */
+
+}
+
 .header-bar {
   border-top: 4px solid;
   border-image-source: linear-gradient(90deg, #5d2f86, #8ed6fb 50%, #d32e9d);
@@ -15,14 +29,22 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
   z-index: 1030;
 }
 
-.button {
-  background-color: #5f5f5f;
-  color: #fff;
-  margin: 0px;
+.button, button.submit {
+  background-color: var(--code-bg);
+  color: var(--content);
+  margin: 10px;
   padding: 10px 20px;
   border-radius: 5px;
   text-decoration: none;
   display: inline-block;
+  -webkit-transition-duration: 1s; /* Safari */
+  transition-duration: 1s;
+  /* box-shadow: 0.5px 0.5px var(--secondary) */
+
+}
+
+.button:hover, button.submit:hover {
+  /* box-shadow: 0 0 10px 2px var(--secondary) */
 }
 
 /* 
@@ -51,6 +73,7 @@ a[accesskey="h"] {
   grid-template-columns: auto auto auto;
   background-color: transparent;
   padding: 10px;
+  justify-content: center;
 }
 
 .grid-item {
@@ -59,15 +82,10 @@ a[accesskey="h"] {
   padding: 10px;
   font-size: 30px;
   text-align: center;
-
+  transition: transform 0.25s ease;
 }
 
-/* img {
-  transition: transform 0.25s ease;
-} */
-
-/* img:hover {
-  -webkit-transform: scale(1.1);
-  /* or some other value 
-  transform: scale(1.1);
-} */
+.grid-item:hover {
+  -webkit-transform: scale(2);
+  transform: scale(2);
+}
