@@ -9,19 +9,19 @@ languages:
     menu:
         main:
             - name: Writing
-              url: writings/
+              url: /writings/
               weight: 5
             - name: Search
-              url: search/
+              url: /search/
               weight: 10
             - name: Contact
-              url: contact/
+              url: /contact/
               weight: 2
             - name: About
-              url: about/
+              url: /about/
               weight: 1
             - name: Services
-              url: services/
+              url: /services/
               weight: 1
             
             # - name: git
