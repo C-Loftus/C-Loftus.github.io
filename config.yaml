@@ -9,7 +9,7 @@ languages:
     menu:
         main:
             - name: Writing
-              url: writings
+              url: writings/
               weight: 5
             - name: Search
               url: search/
