@@ -4,6 +4,58 @@ This is just a placeholder blank stylesheet so as to support adding custom style
 Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-css-with-themes-assets for more info
 */
 
+/* Style for the summary element (the clickable heading) */
+summary {
+  display: block;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Style for the details element (the container) */
+details {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+/* Style for the content section */
+details > div {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 2s ease-out;
+}
+
+/* Display content when the details element is open */
+details[open] > div {
+  max-height: 1000px; /* Set a value large enough to reveal all content */
+  margin: 1px;
+  padding: 10px;
+
+}
+
+details>summary span.icon {
+  width: 24px;
+  height: 24px;
+  transition: all 0.5s;
+  margin-left: auto;
+}
+
+details[open] summary span.icon {
+  transform: rotate(180deg);
+}
+
+summary {
+  display: flex;
+  cursor: pointer;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+
 
 input,
 textarea {

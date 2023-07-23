@@ -7,6 +7,7 @@ categories:
   - Services
 ---
 
+
 ## Talon Consulting
 
 [Talon](https://talon.wiki/) is the optimal way to control your computer through voice, and is essential for anyone dealing with RSI, Carpal Tunnel, or other hand pain conditions. However, it can be tricky to understand. I have used Talon for over 3 years while completing my Computer Science degree from Princeton University. I can help you no matter if you are:
