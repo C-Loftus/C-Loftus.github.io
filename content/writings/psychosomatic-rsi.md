@@ -83,20 +83,4 @@ In Dr. Sarno's books, he often speaks of the importance of
 >}}
 
 
-## My Thoughts and Opinions on the Field 
-
-_In the sections above  I hope to have given an unbiased summary of the landscape of psychosomatic pain and the related treatments. In this section I hope to expound a bit more regarding my own personal thoughts and perspectives_
-
-
- after having read a fairly wide variety of psychosomatic pain literature, it seems to me that psychosomatic pain ought to really be considered similarly to in addiction. in both cases one can overcome it through either an insight regarding one's past and personal predispositions, or simply by changing behavioral patterns. 
- 
- In academic literature, plenty has been written regarding the impact of Cartesianism on our understanding of health and the body.  For the past three hundred years mainstream medicine in the west has decoupled the mind and body and indiscriminately reduced all nonphysical phenomena into the category of 'mind'.   Even for the Catholics and Orthodox, for whom the soul is made up of a multiplicity of faculties,  often colloquially speak of the soul as if it were nothing more than an ontological identifier.  Despite their good intentions, books like 'Pain Free for Life' which speak of the importance of a 'mind body spirit' connection fail to precisely distinguish what this spirit is and how it is different from the mind.
- 
- 
- As such, for many, the statement that orthopedic pain is mentally caused is tantamount to saying it does not exist. 
-
-  
-
-  As our society tackles a crisis with substance addiction, psychosomatic pain accounts show many similarities.
-
-  {{< chat pain-resources >}}
+  {{< chat pain-resources >}} 
