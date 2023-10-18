@@ -43,7 +43,7 @@ params:
     profileMode:
         enabled: true
         title: "Colton Loftus" # optional default will be site title
-        subtitle: "Princeton CS '23, focus in Machine Learning and Tech Accessibility \n\n Currently working in Life Sciences."
+        subtitle: "Princeton CS '23, focus in Machine Learning and Tech Accessibility \n\n Currently working in Life Sciences Consulting."
         imageUrl: "me.jpg" # optional
         imageTitle: "Colton Loftus" # optional
         imageWidth: 220 # custom size
@@ -59,6 +59,6 @@ params:
         url: "https://github.com/c-loftus/"
       - name: "LinkedIn"
         url: "https://www.linkedin.com/in/coltonl/"
-      - name: "Matrix"
-        url: "https://app.element.io/#/user/@c-loftus:matrix.org"
+      # - name: "Matrix"
+      #   url: "https://app.element.io/#/user/@c-loftus:matrix.org"
     
