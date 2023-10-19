@@ -141,3 +141,21 @@ a[accesskey="h"] {
   -webkit-transform: scale(2);
   transform: scale(2);
 }
+
+.fixContainer {
+  position: fixed;
+  bottom: 0;
+  left: 0.5em;
+}
+
+.fixContainer img {
+  max-width: 100%;
+  max-height: 300px; Adjust the height as needed
+}
+
+@media (max-width: 1000px) {
+  /* Hide the container and its contents on screens with a width of 768px or less (typical mobile devices) */
+  .fixContainer {
+      display: none;
+  }
+}
