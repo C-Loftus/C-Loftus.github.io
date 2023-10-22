@@ -36,6 +36,8 @@ outputs:
 
 params:
     ShowToc: true
+    TocOpen: true
+
     ShowCodeCopyButtons: true
     ShowReadingTime: true
     comments: true
