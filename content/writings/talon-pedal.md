@@ -107,7 +107,7 @@ Because of the fact that we are using an internal state dictionary, our `north` 
 
 DanceDanceRevolution is one of the few games I have played that is intended to be played with hands-free-input and still feels natural while doing so. By leveraging some of the design decisions used for the game and building around natural movements, we can create a foot pedal (in reality more like a pad) that is more ergonomic and less likely to cause repetitive strain injury.
 
-![My foot pedal that is custom designed to look like a dance dance revolution dance](/image.png)
+![My foot pedal that is custom designed to look like a dance dance revolution dance](/pad.png)
 
 Using force-sensitive resistors, we are able to activate the press with as much movement as we want. We can simply shift our weight onto it and make small movements such as pivoting our ankles or standing on our toes. However, we can also make full stomp-like movements, as if we are walking in place.
 
