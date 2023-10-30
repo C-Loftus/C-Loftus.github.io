@@ -1,8 +1,8 @@
 ---
-title: "Custom Foot Pedals With Talon Voice"
+title: "Fully Custom Foot Pedals With Talon Voice"
 date: 2023-10-08T10:49:04-04:00
-draft: true
-summary: ""
+draft: false
+summary: " How I created both custom hardware and software to support a foot pedal for my desk setup"
 ---
 
 _All code mentioned in this article can be found here:_
@@ -40,7 +40,7 @@ By utilizing multiple key presses, we can transform a pedal with 3 switches into
 
 If you remap your pedal or foot switch to the proper keys as defined in the talon frontend you should be able to use [my code](https://github.com/C-Loftus/colton_talon/tree/master/pedal) right out of the box without any configuration. If you look inside my `overrides` folder, you can see the variety of custom actions that are overridden contextually. For instance, by default the west and east direction pedals scroll up and down respectively, but if I am watching a YouTube video they control the volume.
 
-_Technical Note: If you are not interested in multiple key presses at the same time, or custom hardware, you could do this entirely in a simple `.talon` file, using a pedal that is natively supported in Talon like the Elgato Stream Deck. However, I think my solution gives more complex functionality_
+_Technical Note: If you are not interested in multiple key presses at the same time, or custom hardware, you could do this entirely in a simple `.talon` file, using a pedal that is natively supported in Talon like the Elgato Stream Deck. However, my solution has more options for customization_
 
 ## Technical Explanation
 
@@ -60,7 +60,7 @@ key(keypad_divide:up):
    user.pedal_up('north')
 ```
 
-After pressing down the key, an internal state dictionary is then updated. By using Talon we can do more complex custom behavior beyond just a simple hotkey. The code below is the default functionality:
+After pressing down the key, an internal state dictionary is then updated. By using Talon we can do more complex custom behavior beyond just a simple hotkey. The abridged code below shows an example of default functionality:
 
 ```python
 @mod.action_class
@@ -72,15 +72,18 @@ class Actions:
       """Toggles Talon by Default"""
       actions.user.toggle_sleep_mode()
 
+   def north_held():
+      """Triggered when the pedal is held for five seconds"""
+      actions.user.toggle_full_screen()
+
 ```
 
-Then if the context matches then it will override the default `north_up` function.
+Then if the context matches then it will override the default `north_up` and `north_held` function (along with all the other pedal functions not included here for brevity).
 
 ```python
 ctx = Context()
 ctx.matches = """title: /YouTube/
-title: /SoundCloud/
-title: /Internet Archive/
+title: /Vimeo/
 """
 
 @ctx.action_class("user")
@@ -92,16 +95,21 @@ class Actions:
       """Pauses a Video Player Using a Keyboard Shortcut"""
       actions.key("space")
 
+   def north_held():
+      """Triggered when the pedal is held for five seconds"""
+      actions.user.draft_comment()
 
 ```
 
+Because of the fact that we are using an internal state dictionary, our `north` pedal can have multiple actions associated with it depending on the length of the press, the state of other pedals, or any other desired modifier.
+
 # Custom Hardware
 
-DanceDanceRevolution is one of the few games I have played that is intended to be played with hands-free-input and still feels natural while doing so. By leveraging some of the design decisions used for the game, we can create a foot pedal that is more ergonomic and less likely to cause repetitive strain injury.
+DanceDanceRevolution is one of the few games I have played that is intended to be played with hands-free-input and still feels natural while doing so. By leveraging some of the design decisions used for the game and building around natural movements, we can create a foot pedal (in reality more like a pad) that is more ergonomic and less likely to cause repetitive strain injury.
 
 ![My foot pedal that is custom designed to look like a dance dance revolution dance](/image.png)
 
-Using force-sensitive resistors, we are able to activate the panel with as much movement as we want. We can simply shift our weight onto it and make small movements such as pivoting our ankles or standing on our toes. However, we can also make full stomp-like movements, as if we are walking in place.
+Using force-sensitive resistors, we are able to activate the press with as much movement as we want. We can simply shift our weight onto it and make small movements such as pivoting our ankles or standing on our toes. However, we can also make full stomp-like movements, as if we are walking in place.
 
 These types of movements make the design ideal for use at a standing desk. Additionally, since there is no need for ankle hinges and more movement options, there is a lower risk of developing RSI around the ankle or foot (the type of which you might get driving a car for a long period of time).
 
@@ -116,17 +124,17 @@ While this may not seem significant for occasional pedal usage, it is crucial to
 
 If you are familiar with this type of input method, it is likely that you have encountered either a large metal arcade pad or a flimsy, foldable soft pad for home console use.
 
-My design incorporates wood and polycarbonate, making it considerably more portable than a large metal pad, while still providing enough stability for use at a standing desk with shoes.
+My design uses a wood base with polycarbonate mounted by velcro. The slight compression of the velcro provides tactile feedback while still securely keeping the sensor in place. As such, my design is considerably more portable than a large metal pad, while still providing enough durability for use at a standing desk with shoes.
 
 For those who prefer using the panel barefoot, there is a slight lip near the sensor's edge that allows you to easily feel the edge of the panel with your feet without looking down.
 
 # Conclusion
 
-Foot pedals and experimental input methods are not discussed nearly enough and there is so much potential for improvement. In the future, I would be interested in designing a larger pedal/pad and developing input methods that incorporate a wider ranger of natural movement. What if we could use our entire body to control the computer? With alternative input methods it's possible; it's only up to us to reimagine it.
+Foot pedals and experimental input methods are not discussed nearly enough and there is so much potential for improvement. In the future, I would be interested in designing a larger pedal/pad and developing input methods that incorporate a wider ranger of natural movement. What if we could use our entire body to control the computer? With alternative input methods it's possible, it's only up to us to reimagine it.
 
 Beyond just my pedal, I believe strongly that custom hardware is one of the best ways to tailor Talon your needs and experiment with previously unseen input options. Regardless of your current health or abilities, anyone who uses computers for a significant portion of their day with only a small subset of input methods is at risk for RSI or other related health issues.
 
-Thus, when we create these sorts of custom devices and leverage accessibility software like Talon Voice, we are not only optimizing our productivity, but also our health. I'm really excited about these ways we can make computer use into a healthier, more accessible activity and intend on building more custom hardware in the future.
+Thus, when we create these sorts of custom devices and leverage accessibility software like Talon Voice, we are not only optimizing our productivity, but also our health. I'm really excited about these ways we can turn computer use into a healthier, more accessible activity and I intend on building more custom hardware in the future.
 
 {{< rawhtml >}}
 

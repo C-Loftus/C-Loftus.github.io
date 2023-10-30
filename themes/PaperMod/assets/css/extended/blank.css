@@ -71,7 +71,7 @@ textarea {
 }
 
 .header-bar {
-  border-top: 4px solid;
+  border-top: 5px solid;
   border-image-source: linear-gradient(90deg, #5d2f86, #8ed6fb 50%, #d32e9d);
   border-image-slice: 1;
   position: fixed;
@@ -152,6 +152,7 @@ a[accesskey="h"] {
   max-width: 100%;
   max-height: 300px; 
 }
+
 
 @media (max-width: 1000px) {
   /* Hide the container and its contents on screens with a width of 768px or less (typical mobile devices) */
