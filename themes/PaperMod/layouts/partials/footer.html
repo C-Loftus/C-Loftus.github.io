@@ -37,9 +37,22 @@
             e.preventDefault();
             var id = this.getAttribute("href").substr(1);
             if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
-                    behavior: "smooth"
-                });
+
+                try {
+                    document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                        behavior: "smooth"
+                    });
+                }
+                catch (err) {
+                    // just go to the top of the page if the element doesn't exist
+                    // do not use the top id
+                    window.scrollTo({
+                        top: 0,
+                        behavior: "smooth"
+                    });
+                }
+
+
             } else {
                 document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
             }
