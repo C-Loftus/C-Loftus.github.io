@@ -44,8 +44,8 @@ Sessions can be as long or as short you need. Not sure if your needs fit my serv
 _Want to see a sample of my work and my knowledge of Talon? Check out some of my sample projects:_
 
 - [https://github.com/C-Loftus/talon-ai-tools](https://github.com/C-Loftus/talon-ai-tools)
-  - Auto-fix dictation and convert between text formats, all through easy AI voice commands 
+  - Auto-fix dictation & convert between text formats with AI tools
 - [https://github.com/C-Loftus/sight-free-talon](https://github.com/C-Loftus/sight-free-talon)
   - Use Talon alongside a screenreader for blind users
 - [https://github.com/C-Loftus/my_talon_scripts](https://github.com/C-Loftus/my_talon_scripts)
-  - Custom footpedals, various helpers, pandoc and Microsoft Office automation, Javascript browser automation, and much more! Cross platform too :)
+  - Custom footpedals, various helpers, pandoc and Microsoft Office automation, Javascript browser automation, & much more! Cross platform too :)
