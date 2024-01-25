@@ -15,7 +15,7 @@ Generally speaking, with accessibility software your fundamental goal should be 
 
 ### Talon Voice
 
-Without a doubt the most important tool you can use is [Talon Voice](https://talonvoice.com/). It provides an offline voice parser, a simple scripting language, and a Python API for your own programming. With these tools you can essentially use voice to control any action on the desktop that could be done through the keyboard or API calls. 
+Without a doubt the most important tool you can use is [Talon Voice](https://talonvoice.com/). It provides an offline voice parser, a simple scripting language, and a Python API for your own programming. With these tools you can essentially use voice to control any action on the desktop that could be done through the keyboard or API calls.
 
 ### Cursorless
 
@@ -26,7 +26,6 @@ By far the best to tool to edit code and also general text is [Cursorless](https
 ### VSCode
 
 Since Cursorless is currently exclusive to VSCode, VSCode is the clear winner for accessible text editors. Beyond this, VSCode is well documented and provides a significant amount of commands and keyboard shortcuts that can be called from Talon. While others have experimented with Emacs configurations, I would not recommend this due to the lack of extension support from Cursorless. There is of course also a much higher barrier to entry.
-
 
 ### Distributions
 
@@ -54,7 +53,7 @@ If you are looking for a more lightweight option, I would recommend awesomewm. I
 
 While all these software choices can greatly improve your workflow there are still a few shortcomings on Linux. First, GUI applications still tend to be very mouse driven and cumbersome to use with voice. This is especially the case for creative applications like DAWs, video editing, or artistic software. Voice is simply not a great input method for these sorts of activities with how they are currently designed. From what I have seen, Mac applications tend to do better on this front. For instance, the Mac GUI keyboard navigation program Vimac seems to be a tool that could be particularly useful if an alternative was developed on Linux.
 
-Next, Linux does not generally have good interoperability with mobile devices. If you have an iPhone, it requires much more effort to sync your devices and transition between mobile and desktop. iPhones provide no easy way to send SMS from a non-Mac desktop.  Disconnects in the software ecosystems of desktop and mobile can be a significant issue for accessibility as more computing shifts to mobile devices, yet the best accessibility software remains on desktop.
+Next, Linux does not generally have good interoperability with mobile devices. If you have an iPhone, it requires much more effort to sync your devices and transition between mobile and desktop. iPhones provide no easy way to send SMS from a non-Mac desktop. Disconnects in the software ecosystems of desktop and mobile can be a significant issue for accessibility as more computing shifts to mobile devices, yet the best accessibility software remains on desktop.
 
 Hopefully this problem can be mitigated as we move towards a future of Linux mobile devices. Linux mobile devices allow the user to have a similar workflow and tools on both mobile and the desktop. While there is much work to do on this front, I am hopeful that one day the same accessibility tools on the desktop will have convenient interoperability with those on mobile.
 
