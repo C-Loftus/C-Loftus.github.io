@@ -1,8 +1,8 @@
 ---
-title: "Fully Custom Foot Pedals With Talon Voice"
+title: "Fully Custom Pedals With Talon Voice"
 date: 2023-10-08T10:49:04-04:00
 draft: false
-summary: " How I created both custom hardware and software to support a foot pedal for my desk setup"
+summary: "Creating both custom hardware and software to support alternative input for my desk setup"
 ---
 
 _All code mentioned in this article can be found here:_
