@@ -62,6 +62,6 @@ textarea {
 
 - https://www.linkedin.com/in/coltonl/
 - https://github.com/C-Loftus
-- `@Colton L` on the [Talon Slack](https://talonvoice.slack.com/team/U02S1LGCH9A)
+- `@Colton Loftus` on the [Talon Slack](https://talonvoice.slack.com/team/U02S1LGCH9A)
 <!-- - Email: p4e6e09vr [-at-] mozmail (dot) com
   - Forwards to my main email to prevent spam -->
