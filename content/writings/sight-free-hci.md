@@ -10,13 +10,13 @@ Recently I've been developing `sight-free-talon`, a program intended to allow no
 Using low vision tools like screen readers alongside voice input is deceptively hard for those who have never used both.
 
 - Sophisticated voice input tools like [rango](https://github.com/david-tejada/rango) or [cursorless](https://github.com/cursorless-dev/cursorless) are fantastic for the sighted, but they are very dependent on visual markers.
-- Screen readers like NVDA are dependent on keyboard input to move focus
+- Screen readers like NVDA are dependent on keyboard input to move focus.
 - General challenges with voice input like misrecognitions are much more tedious to correct non-visually.
 
-The more development I have done, the more strongly I feel like general purpose voice control will drastically reduce friction within non-visual computer use, and do more than just help those with RSI. It is well position to significantly reduce challenges skimming large amounts of prose/code and improve navigation on complicated interfaces that is otherwise slow and tedious.
+The more development I have done, the more strongly I feel like general purpose voice control will drastically reduce friction within non-visual computer use, and do more than just help those with RSI. It is well positioned to significantly reduce challenges skimming large amounts of prose/code and improve navigation on complicated interfaces that is otherwise slow and tedious.
 
 - By using platform accessibility APIs, I support commands for saying the name of the element and allowing the user to directly jump to or click on it. So no need to repeatedly use tab or arrow keys to move the screen reader / system focus.
-- With language model support from my other project, [talon-ai-tools](https://github.com/C-Loftus/talon-ai-tools) we can quickly summarize or inquire about the context of a textual selection, describe images or page layouts, and control our computers with natural language through the OpenAI function calling API. This could all be done manually, but voice commands drastically reduce the friction within LLM interaction. No copy/pasting needed.
+- With language model support from my other project, [talon-ai-tools](https://github.com/C-Loftus/talon-ai-tools) we can quickly summarize or inquire about the context of a textual selection, describe images or page layouts, and control our computers with natural language through the OpenAI function calling API. This could all be done manually, but voice commands drastically reduce the friction within LLM interaction. No copying/pasting needed.
 
 My program is an extension over Talon Voice and a variety of screen readers, with NVDA currently being the best supported. Talon is challenging for new users, and the fact is community driven can sometimes make standardization difficult. Yet nonetheless, it is by far the most customizable and robust option for voice controlled computer use. As Talon's UX continues to improve with better installation and package management, I can envision it becoming a standard tool for use alongside screen readers.
 
