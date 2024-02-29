@@ -1,8 +1,9 @@
 ---
-title: "Hands-free HCI for the Blind and Visually Impaired"
+title: "Sight-free-talon: a new dictation solution for the blind"
 date: 2024-01-07T12:24:53-05:00
 draft: false
-summary: "Integrating voice commands with screen readers, LLMs, and more"
+summary: "My work integrating voice commands with screen readers, LLMs, and more"
+tags: ["software", "accessibility", "programming"]
 ---
 
 Recently I've been developing `sight-free-talon`, a program intended to allow non-visual voice interaction. To my knowledge, my repo is the only actively maintained, and cross platform solution in the world for this task. All code for this project can be found on the [sight-free-talon github repo](https://github.com/C-Loftus/sight-free-talon)
