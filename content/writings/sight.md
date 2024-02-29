@@ -1,16 +1,23 @@
 ---
 title: "Creating Dev Tools for the Blind and Visually Impaired"
 date: 2024-01-07T12:24:53-05:00
-draft: true
-summary: ""
+draft: false
+summary: "Integrating Talon voice with screen readers, LLMs, and more"
 ---
 
-_All code for this repo can be found at: [https://github.com/C-Loftus/sight-free-talon](https://github.com/C-Loftus/sight-free-talon)_
+Recently I've been developing `sight-free-talon`, a program intended to allow non-visual voice interaction. To my knowledge, my repo is the only actively maintained, and cross platform solution in the world for this task. All code for this project can be found at: [https://github.com/C-Loftus/sight-free-talon](https://github.com/C-Loftus/sight-free-talon)
 
-Recently I've been developing `sight-free-talon`, a program that allows computer use entirely through voice and audio. To my knowledge, my repo is the only actively maintained, and cross platform solution in the world for this task.
+Using low vision tools like screen readers alongside voice input is deceptively hard for those who have never used both.
 
-Using low vision tools like screen readers alongside voice input is deceptively hard for those who have never used both. Sophisticated voice input tools like [https://github.com/david-tejada/rango](https://github.com/david-tejada/rango) or [https://github.com/cursorless-dev/cursorless](https://github.com/cursorless-dev/cursorless) are great but they are totally dependent on visual markers. On the other hand, screen readers like NVDA are totally dependent on the keyboard to move focus. Additionally, challenges with voice input like misrecognitions are much more tedious to correct non-visually.
+- Sophisticated voice input tools like [https://github.com/david-tejada/rango](https://github.com/david-tejada/rango) or [https://github.com/cursorless-dev/cursorless](https://github.com/cursorless-dev/cursorless) are fantastic for the sighted, but they are very dependent on visual markers.
+- Screen readers like NVDA are dependent on keyboard input to move focus
+- General challenges with voice input like misrecognitions are much more tedious to correct non-visually.
 
-From an outsider's perspective, I feel that the greatest issue with non-visual computer use is the inability to efficiently skim text and the slow rate of navigation on complicated interfaces. Yet through voice we can entirely circumvent this. By using platform accessibility APIs, I support commands for saying the name of the element and allowing the user to directly click on it. So no need to use tab or arrow keys to move the NVDA or system focus.
+The more development I have done, the more strongly I feel like general purpose voice control will drastically reduce friction within non-visual computer use, and do more than just help those with RSI. It is well position to significantly reduce challenges skimming large amounts of prose/code and improve navigation on complicated interfaces that is otherwise slow and tedious.
 
-My program is an extension over Talon Voice and a variety of screen readers, with NVDA currently being the best supported. Talon is not easy but it is by far the most customizable and robust option for voice controlled computer use.
+- By using platform accessibility APIs, I support commands for saying the name of the element and allowing the user to directly jump to or click on it. So no need to repeatedly use tab or arrow keys to move the screen reader / system focus.
+- With language model support from my other project, [https://github.com/C-Loftus/talon-ai-tools](https://github.com/C-Loftus/talon-ai-tools) we can quickly summarize or inquire about the context of a textual selection, describe images or page layouts, and control our computers with natural language through the OpenAI function calling API. This could all be done manually, but voice commands drastically reduce the friction within LLM interaction. No copy/pasting needed.
+
+My program is an extension over Talon Voice and a variety of screen readers, with NVDA currently being the best supported. Talon is challenging for new users, and the fact is community driven can sometimes make standardization difficult. Yet nonetheless, it is by far the most customizable and robust option for voice controlled computer use. As Talon's UX continues to improve with better installation and package management, I can envision it becoming a standard tool for use alongside screen readers.
+
+Regardless of how this progresses, I love HCI projects because they have embodied real world benefits for people. There is so much potential for innovation simply by reconsidering our qualitative assumptions and recontextualizing existing technologies. It has been a real pleasure interacting with individuals I now consider friends from the NVDA and Orca mailing lists.
