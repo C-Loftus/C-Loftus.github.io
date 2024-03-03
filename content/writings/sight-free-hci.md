@@ -6,7 +6,7 @@ summary: "My work integrating voice commands with screen readers, LLMs, and more
 tags: ["software", "accessibility", "programming"]
 ---
 
-Recently I've been developing `sight-free-talon`, a program for non-visual voice interaction. To my knowledge, my repo is the only actively maintained, and cross platform solution in the world for this task. All code for this project can be found on the [sight-free-talon github repo](https://github.com/C-Loftus/sight-free-talon)
+Recently I've been developing `sight-free-talon`, a program for non-visual voice interaction. To my knowledge, my repo is the only actively maintained and cross platform solution in the world for this task. All code for this project can be found on the [sight-free-talon github repo](https://github.com/C-Loftus/sight-free-talon)
 
 Using low vision tools like screen readers alongside voice commands or dictation is deceptively hard:
 
