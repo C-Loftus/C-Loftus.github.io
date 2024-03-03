@@ -1,5 +1,5 @@
 ---
-title: "sight-free-talon: a New Dictation Solution for the Blind"
+title: "Sight-free-talon: A Voice Interaction Program for the Visually Impaired"
 date: 2024-01-07T12:24:53-05:00
 draft: false
 summary: "My work integrating voice commands with screen readers, LLMs, and more"
