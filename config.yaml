@@ -1,66 +1,64 @@
 theme: "PaperMod"
-languageCode : 'en-us'
-title : 'Colton Loftus'
-pluralizeListTitles : false
+languageCode: "en-us"
+title: "Colton Loftus"
+pluralizeListTitles: false
 enableRobotsTXT: true
 
 languages:
-  en: 
+  en:
     menu:
-        main:
-            - name: Writing
-              url: /writings/
-              weight: 5
-            - name: Search
-              url: /search/
-              weight: 10
-            - name: Contact
-              url: /contact/
-              weight: 2
-            - name: About
-              url: /about/
-              weight: 1
-            - name: Services
-              url: /services/
-              weight: 1
-            
-            # - name: git
-            #   url: http://git.colton.world
-            #   weight: 1
-          
+      main:
+        - name: Writing
+          url: /writings/
+          weight: 5
+        - name: Search
+          url: /search/
+          weight: 10
+        - name: Contact
+          url: /contact/
+          weight: 2
+        - name: About
+          url: /about/
+          weight: 1
+        - name: Services
+          url: /services/
+          weight: 1
+
+        # - name: git
+        #   url: http://git.colton.world
+        #   weight: 1
+
 outputs:
-    home:
-        - HTML
-        - RSS
-        - JSON # is necessary
-
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
 params:
-    ShowToc: true
-    TocOpen: true
+  ShowToc: true
+  TocOpen: true
 
-    ShowCodeCopyButtons: true
-    ShowReadingTime: true
-    comments: true
+  ShowCodeCopyButtons: true
+  ShowReadingTime: true
+  comments: true
 
-    profileMode:
-        enabled: true
-        title: "Colton Loftus" # optional default will be site title
-        subtitle: "Princeton CS '23, focus in Machine Learning and Tech Accessibility \n\n Currently working in Life Sciences Consulting."
-        imageUrl: "me.jpg" # optional
-        imageTitle: "Colton Loftus" # optional
-        imageWidth: 220 # custom size
-        imageHeight: 200 # custom size
-        buttons:
-          # - name: My writing
-          #   url: "/blog"
-        #   - name: Github  
-        #     url: "https://github.com/"
+  profileMode:
+    enabled: true
+    title: "Colton Loftus" # optional default will be site title
+    subtitle: "Princeton CS '23, focus in Machine Learning and Tech Accessibility \n\n Currently working in Life Sciences Consulting."
+    imageUrl: "me.jpg" # optional
+    imageTitle: "Colton Loftus" # optional
+    imageWidth: 220 # custom size
+    imageHeight: 200 # custom size
+    buttons:
+      # - name: My writing
+      #   url: "/blog"
+    #   - name: Github
+    #     url: "https://github.com/"
 
-    socialIcons: # optional
-      - name: "Github"
-        url: "https://github.com/c-loftus/"
-      - name: "LinkedIn"
-        url: "https://www.linkedin.com/in/coltonl/"
-      # - name: "Matrix"
-      #   url: "https://app.element.io/#/user/@c-loftus:matrix.org"
-    
+  socialIcons: # optional
+    - name: "Github"
+      url: "https://github.com/c-loftus/"
+    - name: "LinkedIn"
+      url: "https://www.linkedin.com/in/coltonl/"
+    # - name: "Matrix"
+    #   url: "https://app.element.io/#/user/@c-loftus:matrix.org"
