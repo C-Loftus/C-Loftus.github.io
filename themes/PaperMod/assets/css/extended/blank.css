@@ -89,15 +89,15 @@ textarea {
   border-radius: 5px;
   text-decoration: none;
   display: inline-block;
-  -webkit-transition-duration: 1s; /* Safari */
-  transition-duration: 1s;
+  /* -webkit-transition-duration: 1s; Safari */
+  /* transition-duration: 1s; */
   /* box-shadow: 0.5px 0.5px var(--secondary) */
 
 }
 
-.button:hover, button.submit:hover {
+/* .button:hover, button.submit:hover { */
   /* box-shadow: 0 0 10px 2px var(--secondary) */
-}
+/* } */
 
 /* 
 a[accesskey="h"] {
