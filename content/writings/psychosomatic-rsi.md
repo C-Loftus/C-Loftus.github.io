@@ -82,4 +82,3 @@ In Dr. Sarno's books, he often speaks of the importance of
 
 {{< image-list "https://d.gr-assets.com/books/1320559467l/316781.jpg" >}}
 
-{{< chat pain-resources >}}

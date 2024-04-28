@@ -58,4 +58,3 @@ Next, Linux does not generally have good interoperability with mobile devices. I
 Hopefully this problem can be mitigated as we move towards a future of Linux mobile devices. Linux mobile devices allow the user to have a similar workflow and tools on both mobile and the desktop. While there is much work to do on this front, I am hopeful that one day the same accessibility tools on the desktop will have convenient interoperability with those on mobile.
 
 For more discussion on this topic, check out my [thesis research](https://github.com/c-loftus/princeton-Thesis) where I discuss Linux mobile devices, federated learning and more new trends in voice-based accessibility.
-{{< chat linux-accessibility >}}

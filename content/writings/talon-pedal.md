@@ -145,8 +145,6 @@ Thus, when we create these sorts of custom devices and leverage accessibility so
 
 If you or someone you know could benefit from personalized sessions for learning Talon and optimizing a personal setup in either hardware or software, please feel free to [reach out to me](/contact). I'd love to help you get your workflow to the next level.
 
-{{< chat pedal >}}
-
 {{< rawhtml >}}
 
 <!-- <div class="comments">
