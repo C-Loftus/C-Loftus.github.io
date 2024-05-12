@@ -32,10 +32,9 @@ details[open] > div {
   max-height: 1000px; /* Set a value large enough to reveal all content */
   margin: 1px;
   padding: 10px;
-
 }
 
-details>summary span.icon {
+details > summary span.icon {
   width: 24px;
   height: 24px;
   transition: all 0.5s;
@@ -55,8 +54,6 @@ summary::-webkit-details-marker {
   display: none;
 }
 
-
-
 input,
 textarea {
   width: 100%;
@@ -67,7 +64,6 @@ textarea {
   color: var(--primary);
   border-radius: var(--radius);
   /* box-shadow: 1px 1px; */
-
 }
 
 .header-bar {
@@ -81,7 +77,8 @@ textarea {
   z-index: 1030;
 }
 
-.button, button.submit {
+.button,
+button.submit {
   background-color: var(--code-bg);
   color: var(--content);
   margin: 10px;
@@ -92,7 +89,6 @@ textarea {
   /* -webkit-transition-duration: 1s; Safari */
   /* transition-duration: 1s; */
   /* box-shadow: 0.5px 0.5px var(--secondary) */
-
 }
 
 .center {
@@ -132,13 +128,65 @@ textarea {
 
 .fixContainer img {
   max-width: 100%;
-  max-height: 300px; 
+  max-height: 300px;
 }
-
 
 @media (max-width: 1000px) {
   /* Hide the container and its contents on screens with a width of 768px or less (typical mobile devices) */
   .fixContainer {
-      display: none;
+    display: none;
   }
+}
+
+/* :root {
+  --theme: #fff;
+  --entry: #cfcfff;
+  --primary: rgba(0, 0, 106, 0.88);
+  --secondary: rgba(0, 0, 80, 0.78);
+  --tertiary: rgba(0, 0, 106, 0.16);
+  --content: rgba(0, 0, 60, 0.88);
+  --hljs-bg: #1c1d21;
+  --code-bg: #f5f5f5;
+  --border: #eee;
+}
+
+.dark {
+  --theme: #101c7a;
+  --entry: #202062;
+  --primary: rgba(235, 235, 255, 0.96);
+  --secondary: rgba(235, 235, 255, 0.66);
+  --tertiary: rgba(1, 1, 5, 0.32);
+  --content: rgba(235, 235, 255, 0.82);
+  --hljs-bg: #2e2e33;
+  --code-bg: #37383e;
+  --border: #446;
+} */
+
+/* .footer {
+  color: var(--background);
+  background: var(--border);
+  border-top-left-radius: 50% 80%;
+  border-top-right-radius: 50% 80%;
+} */
+
+/* .list.vsc-initialized {
+  background-image: url("data:image/svg+xml,%3Csvg width='100' height='20' viewBox='0 0 100 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M21.184 20c.357-.13.72-.264 1.088-.402l1.768-.661C33.64 15.347 39.647 14 50 14c10.271 0 15.362 1.222 24.629 4.928.955.383 1.869.74 2.75 1.072h6.225c-2.51-.73-5.139-1.691-8.233-2.928C65.888 13.278 60.562 12 50 12c-10.626 0-16.855 1.397-26.66 5.063l-1.767.662c-2.475.923-4.66 1.674-6.724 2.275h6.335zm0-20C13.258 2.892 8.077 4 0 4V2c5.744 0 9.951-.574 14.85-2h6.334zM77.38 0C85.239 2.966 90.502 4 100 4V2c-6.842 0-11.386-.542-16.396-2h-6.225zM0 14c8.44 0 13.718-1.21 22.272-4.402l1.768-.661C33.64 5.347 39.647 4 50 4c10.271 0 15.362 1.222 24.629 4.928C84.112 12.722 89.438 14 100 14v-2c-10.271 0-15.362-1.222-24.629-4.928C65.888 3.278 60.562 2 50 2 39.374 2 33.145 3.397 23.34 7.063l-1.767.662C13.223 10.84 8.163 12 0 12v2z' fill='%239C92AC' fill-opacity='0.25' fill-rule='evenodd'/%3E%3C/svg%3E");
+} */
+
+/* .post-single > .post-header {
+  position: relative;
+  padding-bottom: 40px; 
+} */
+
+.post-header::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 15px; /* Height of the wave */
+  background-image: url("data:image/svg+xml,%3Csvg width='100' height='20' viewBox='0 0 100 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M21.184 20c.357-.13.72-.264 1.088-.402l1.768-.661C33.64 15.347 39.647 14 50 14c10.271 0 15.362 1.222 24.629 4.928.955.383 1.869.74 2.75 1.072h6.225c-2.51-.73-5.139-1.691-8.233-2.928C65.888 13.278 60.562 12 50 12c-10.626 0-16.855 1.397-26.66 5.063l-1.767.662c-2.475.923-4.66 1.674-6.724 2.275h6.335zm0-20C13.258 2.892 8.077 4 0 4V2c5.744 0 9.951-.574 14.85-2h6.334zM77.38 0C85.239 2.966 90.502 4 100 4V2c-6.842 0-11.386-.542-16.396-2h-6.225zM0 14c8.44 0 13.718-1.21 22.272-4.402l1.768-.661C33.64 5.347 39.647 4 50 4c10.271 0 15.362 1.222 24.629 4.928C84.112 12.722 89.438 14 100 14v-2c-10.271 0-15.362-1.222-24.629-4.928C65.888 3.278 60.562 2 50 2 39.374 2 33.145 3.397 23.34 7.063l-1.767.662C13.223 10.84 8.163 12 0 12v2z' fill='%239C92AC' fill-opacity='0.42' fill-rule='evenodd'/%3E%3C/svg%3E");
+  background-repeat: repeat-x;
+  background-position: center bottom;
+  border-radius: 40%;
 }
