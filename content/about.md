@@ -18,6 +18,6 @@ categories:
 
 I am a programmer by trade and currently work in the Life Sciences Industry. My professional background and links to academic projects can be found on my [contact](/contact) page.
 
-In my spare time I am focused on building the world's [best dictation solution](https://github.com/C-Loftus/sight-free-talon) for the blind and visually impaired.
+In my spare time I love to socially useful software tools. 
 
 Please feel free to reach out to me through any of the methods listed on my [ contact](/contact) page.
