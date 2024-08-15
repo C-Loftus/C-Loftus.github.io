@@ -45,7 +45,7 @@ params:
   profileMode:
     enabled: true
     title: "Colton Loftus" # optional default will be site title
-    subtitle: "Princeton CS '23, focus in Machine Learning and Tech Accessibility \n\n Currently working in Life Sciences Consulting."
+    subtitle: "Princeton CS '23, focus in Machine Learning and Tech Accessibility \n\n Currently working as a geospatial software engineer"
     imageUrl: "me.jpg" # optional
     imageTitle: "Colton Loftus" # optional
     imageWidth: 220 # custom size
