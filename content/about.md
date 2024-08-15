@@ -16,7 +16,7 @@ categories:
 </center>
 {{< /rawhtml >}}
 
-I am a programmer by trade and currently work in the Life Sciences Industry. My professional background and links to academic projects can be found on my [contact](/contact) page.
+I am software engineer working on infrastructure for global water data. My professional background and links to academic projects can be found on my [contact](/contact) page.
 
 In my spare time I love to develop socially useful software tools related to [accessibility](https://github.com/C-Loftus/sight-free-talon/). 
 
