@@ -15,9 +15,10 @@ categories:
 <br>
 {{< /rawhtml >}}
 
-I have been developing and personally using a variety of accessibility software tools for over 6 years on a wide variety of platforms. I would love to help you or your team with your personal or professional accessibility goals.
+I have been developing and personally using a variety of software tools like voice control or screen readers for over 6 years on a wide variety of platforms. I would love to help you or your team with your personal or professional accessibility goals.
 
 I have provided software consulting services for accessibility and UX teams at Github Inc. as well as personalized sessions for professionals dealing with health challenges in a wide variety of industries like software, education, or engineering.
+
 
 ## I can help you no matter if you are:
 
