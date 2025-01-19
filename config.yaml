@@ -4,7 +4,8 @@ languageCode: "en-us"
 title: "Colton Loftus"
 pluralizeListTitles: false
 enableRobotsTXT: true
-
+ignoreLogs:
+  - warning-goldmark-raw-html
 languages:
   en:
     menu:

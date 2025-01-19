@@ -10,29 +10,32 @@ categories:
 {{< rawhtml >}}
 
 <center>
-<h1> Talon Consulting </h1>
+<h1> Accessibility Software Consulting </h1>
 </center>
 <br>
 {{< /rawhtml >}}
 
-[Talon](https://talon.wiki/) is the optimal way to control your computer through voice, and is essential for anyone dealing with RSI, Carpal Tunnel, or other hand conditions. However, it can be difficult to understand. I have used Talon for over 3 years studying Computer Science at Princeton University and working in the healthcare consulting sector.
+I have been developing and personally using a variety of accessibility software tools for over 6 years on a wide variety of platforms. I would love to help you or your team with your personal or professional accessibility goals.
 
-### I can help you no matter if you are:
+I have provided software consulting services for accessibility and UX teams at Github Inc. as well as personalized sessions for professionals dealing with health challenges in a wide variety of industries like software, education, or engineering.
 
-- a beginner looking to quickly get the best set up
-- an experienced user looking for more customization and a better understanding of Talon scripting
+## I can help you no matter if you are:
+
+- an individual with a health challenge like carpal tunnel or vision impairment looking to quickly get the best set up for personal your needs
 - a team leader or educator looking to support a colleague or student
 - a researcher looking to better understand computer accessibility
+- a developer looking to better understand screen readers or voice control tools from a technical perspective
 
-Sessions can be as long or as short you need. Not sure if your needs fit my services, reach out anyways!
+Sessions can be as long or as short you need. Not sure if your needs fit my services, reach out anyways! I am flexible!
 
 {{< rawhtml >}}
 
 <center>
 
-<img src="https://avatars.githubusercontent.com/u/32918202?s=200&v=4" alt="Talon Logo" style="border-radius: 40px;"> </img>
-
-<!-- <i> Contact for pricing </i> <del></del> -->
+<div style="display: flex; align-items: center; justify-content: center;">
+    <img src="https://avatars.githubusercontent.com/u/32918202?s=200&v=4" alt="Talon Logo" title="Talon Voice Control" style="border-radius: 40px; margin-right: 10px; width: 200px; height: 200px;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Orca.svg/1200px-Orca.svg.png" alt="Orca" title="Orca Screen Reader" style="border-radius: 40px; width: 200px; height: 200px;">
+</div>
 <br>
 
 <a class="button" href="/contact">Contact Me to Set Up a Meeting! </a>
@@ -49,3 +52,5 @@ _Want to see a sample of my work and my knowledge of Talon? Check out some of my
   - Use Talon alongside a screenreader for blind users
 - [https://github.com/C-Loftus/my_talon_scripts](https://github.com/C-Loftus/my_talon_scripts)
   - Custom footpedals, various helpers, pandoc and Microsoft Office automation, Javascript browser automation, & much more! Cross platform too :)
+- [https://github.com/C-Loftus/Watercolor](https://github.com/C-Loftus/Watercolor) 
+  - Click on desktop elements by labeling them with an overlay. Example of my at-spi experience and Linux a11y
