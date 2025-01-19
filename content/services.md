@@ -21,7 +21,7 @@ I have provided software consulting services for accessibility and UX teams at G
 
 ## I can help you no matter if you are:
 
-- an individual with a health challenge like carpal tunnel or vision impairment looking to quickly get the best set up for personal your needs
+- an individual with a health challenge like carpal tunnel or vision impairment looking to quickly get the best set up for personal needs
 - a team leader or educator looking to support a colleague or student
 - a researcher looking to better understand computer accessibility
 - a developer looking to better understand screen readers or voice control tools from a technical perspective
