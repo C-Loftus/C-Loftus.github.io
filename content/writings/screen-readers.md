@@ -7,8 +7,6 @@ showTOC: false
 
 ---
 
-# Screen Readers for General Use:
-
 One of the central lessons from open source as a general social movement is that projects tend to succeeed when there is broad usage from a wide variety of stakeholders across demographics. Ubiquitous projects like the Linux kernel, Python, and the Gnome desktop have all found success because they deliberately cast a wide net and are inclusive to users in widely varying use cases.
 
 One of the biggest flaws within Linux and free software generally has been accessibility. A sigificant cause of this is that accessibility has always been seen as an accommodation and not a general purpose improvement. The fact of the matter is that user interfaces which are accessible are also more semantically meaningful and tend to be easier to script for developers. 
