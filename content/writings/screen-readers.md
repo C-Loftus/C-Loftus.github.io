@@ -2,7 +2,9 @@
 title: "Screen Readers for General Use"
 date: 2025-01-19T19:08:51-05:00
 draft: false
-summary: "Reinterpreting how we think about screen reader use"
+summary: "Reinterpreting how we think about screen reader use on Linux"
+showTOC: false
+
 ---
 
 # Screen Readers for General Use:
