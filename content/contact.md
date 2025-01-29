@@ -15,20 +15,18 @@ categories:
   method="POST"
 >
   <p>
-    <label>
-      Email: <input type="text" name="name" id="email" name="email" placeholder="Let me know how to best respond to you!" required/>
-    </label>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Let me know how to best respond to you!" required />
   </p>
   <p>
-    <label>
-      Message: <textarea name="message" id="message" name="message" placeholder="Send me a message or a service inquiry!"></textarea>
-    </label>
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" placeholder="Send me a message or a service inquiry!"></textarea>
   </p>
   <center>
     <button type="submit" class="submit">Send</button>
-   </center> 
-  </p>
+  </center>
 </form>
+
 
 {{< /rawhtml >}}
 

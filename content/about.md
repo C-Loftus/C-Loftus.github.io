@@ -16,8 +16,8 @@ categories:
 </center>
 {{< /rawhtml >}}
 
-I am software engineer working on infrastructure for global water data. My professional background and links to academic projects can be found on my [contact](/contact) page.
+I am software engineer working on infrastructure for global water data for the [Center for Geospatial Solutions](https://cgsearth.org/) at the [Lincoln Institute of Land Policy](https://www.lincolninst.edu/)
 
-In my spare time I love to develop socially useful software tools related to [accessibility](https://github.com/C-Loftus/sight-free-talon/). 
+In my spare time I am highly interested in software tools for accessibility.
 
 Please feel free to reach out to me through any of the methods listed on my [ contact](/contact) page.
