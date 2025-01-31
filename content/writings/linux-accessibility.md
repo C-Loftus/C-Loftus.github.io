@@ -21,7 +21,7 @@ Without a doubt the most important tool you can use is [Talon Voice](https://tal
 
 By far the best to tool to edit code and also general text is [Cursorless](https://github.com/cursorless-dev/cursorless). This extension allows you to select any word in a text file and perform operations on it through Talon voice commands. To do Cursorless justice is beyond the scope of this article, yet it can be roughly thought of as improving voice coding in a way that is analogous to how specialty editors like Vim help keyboard driven coding. Namely, by using combinations of commands and chaining them together for quicker editing. Cursorless does this by adding colored 'hats' on top of each token and manipulating them via a specialty grammar.
 
-![](https://www.cursorless.org/docs/assets/images/tryWrapFine-9655118ff42de230357781ce5691079c.gif)
+![an editor with dots over it showing how tokens are manipulated using cursorless](https://www.cursorless.org/docs/assets/images/tryWrapFine-9655118ff42de230357781ce5691079c.gif)
 
 ### VSCode
 
