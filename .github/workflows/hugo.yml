@@ -31,8 +31,6 @@ jobs:
     runs-on: ubuntu-latest
     env:
       HUGO_VERSION: 0.141.0
-      # https://github.com/gohugoio/hugo/releases/download/v0.125.4/hugo_0.125.4_linux-arm64.deb
-      # https://github.com/gohugoio/hugo/releases/download/v0.125.4/hugo_extended_0.125.4_linux-amd64.deb
     steps:
       - name: Install Hugo CLI
         run: |
